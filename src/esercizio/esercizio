@@ -1,0 +1,24 @@
+possiamo partire da un mockup
+
+ogni team sceglie il suo approccio:
+
+Quando arriva una bozza iniziamo a pensare a livello di componenti di cosa ho bisogno (visto che stiamo utilizzando React)
+
+ToDo list:
+c'è un input dove scrivo, faccio aggiungi e compare un nuovo task nella lista. 
+c'è un filtro per selezionare i task: posso flaggarli, scegliere se cancellarli o modificarli. 
+È una webapp single page, perfetta per react.
+
+Primo step: siccome react ragiona a componenti, inizio a ragionare anch'io a componenti. 
+
+Come gestirli? vedere le cose che si ripetono, che possiamo automatizzare, perché si ripetono.. avremo bisogno di un array
+
+i pulsanti: sono 3, o facciamo un ciclo o li creiamo uno alla volta. 
+
+compiti:
+
+1 dare un minimo di stile
+2 sostituire le parti hardcoded con i componenti di react 
+3 fare un ciclo nell'array per tirar fuori i componenti task con nome e flag.
+
+****** versione con REDUCER!!!! ***********
