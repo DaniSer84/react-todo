@@ -10,7 +10,8 @@ export const TasksContext = createContext<TaskContextType>(null!)
 export const TasksDispatchContext = createContext<React.Dispatch<TaskAction>>(null!)
 
 // l'argomento di JSON.parse non può essere null, quindi facciamo che o ritorna tasks o stringa vuota
-const initialData = JSON.parse(localStorage.getItem('tasks') || '[]')  
+const initialData = JSON.parse(localStorage.getItem('tasks') || '[]')
+
 type TaskProviderProps = {
     children: JSX.Element
 }
